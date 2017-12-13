@@ -1,0 +1,34 @@
+{
+    "name": "helloworld",
+    "displayName": "HelloCordova",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-android": "^6.2.3",
+        "cordova-browser": "^4.1.0",
+        "cordova-plugin-whitelist": "^1.3.3",
+        "cordova-plugin-window-background": "^1.0.0"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-window-background": {
+                "COLOR": "#ffffff",
+                "WINDOW_BACKGROUND_COLOR": "#FFFFFF",
+                "COLOR_PRIMARY": "#005635",
+                "COLOR_SECONDARY": "#002C0F",
+                "COLOR_ACCENT": "#00A551"
+            }
+        },
+        "platforms": [
+            "android",
+            "browser"
+        ]
+    }
+}

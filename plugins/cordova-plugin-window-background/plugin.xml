@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-window-background"
+        version="1.0.0">
+
+    <name>Background color</name>
+    <description>Cordova/Phonegap plugin to add control the background color window for your app</description>
+    <license>MIT</license>
+    <keywords>cordova,background,color</keywords>
+    <preference name="COLOR"/>
+    <engines>
+        <engine name="cordova-android" version=">=3.5.0"/>
+    </engines>
+
+    <!-- android -->
+    <platform name="android">
+        <source-file src="src/android/colors.xml" target-dir="res/values"/>
+        <source-file src="src/android/styles.xml" target-dir="res/values"/>
+        <config-file target="res/values/colors.xml" parent="/*">
+            <color name="window_background">$COLOR</color>
+        </config-file>
+        <config-file target="res/values/styles.xml" parent="/*">
+            <style name="AppTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+                <item name="android:windowBackground">@color/window_background</item>
+            </style>
+        </config-file>
+        <edit-config file="AndroidManifest.xml"
+                     target="/manifest/application/activity[@android:name='MainActivity']"
+                     mode="merge">
+            <activity android:name="MainActivity" android:theme="@style/AppTheme"/>
+        </edit-config>
+    </platform>
+    
+</plugin>

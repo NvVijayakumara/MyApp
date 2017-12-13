@@ -1,0 +1,94 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-window-background",
+        "scope": null,
+        "escapedName": "cordova-plugin-window-background",
+        "name": "cordova-plugin-window-background",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "D:\\vijayakumara.eaft\\Workspace\\Cardova\\MyApp\\node_modules"
+    ]
+  ],
+  "_from": "cordova-plugin-window-background@latest",
+  "_id": "cordova-plugin-window-background@1.0.0",
+  "_inCache": true,
+  "_location": "/cordova-plugin-window-background",
+  "_nodeVersion": "6.9.2",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-window-background-1.0.0.tgz_1482162385100_0.5873243296518922"
+  },
+  "_npmUser": {
+    "name": "douglaszaltron",
+    "email": "douglaszaltron@gmail.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-window-background",
+    "scope": null,
+    "escapedName": "cordova-plugin-window-background",
+    "name": "cordova-plugin-window-background",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-window-background/-/cordova-plugin-window-background-1.0.0.tgz",
+  "_shasum": "f5f5cf5980788d469012feb9ae0e735453956413",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-window-background",
+  "_where": "D:\\vijayakumara.eaft\\Workspace\\Cardova\\MyApp\\node_modules",
+  "author": {
+    "name": "Douglas Zaltron"
+  },
+  "bugs": {
+    "url": "https://github.com/douglaszaltron/cordova-plugin-window-background/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-window-background",
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova/Phonegap plugin to add control the background color window for your app",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "f5f5cf5980788d469012feb9ae0e735453956413",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-window-background/-/cordova-plugin-window-background-1.0.0.tgz"
+  },
+  "gitHead": "956ab08b271a544a18d2c386623fadd867d8a644",
+  "homepage": "https://github.com/douglaszaltron/cordova-plugin-window-background#readme",
+  "keywords": [
+    "cordova",
+    "background",
+    "color",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "douglaszaltron",
+      "email": "douglaszaltron@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-window-background",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglaszaltron/cordova-plugin-window-background.git"
+  },
+  "scripts": {},
+  "version": "1.0.0"
+}
